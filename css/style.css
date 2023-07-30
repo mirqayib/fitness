@@ -13,6 +13,9 @@ header{
     position: relative;
     text-align: center;
 }
+header img{
+    padding: 44px 0 0 56px;
+}
 nav,#title{
     position: absolute;
     width: 100%;
@@ -57,6 +60,9 @@ font-family: "Myriad Pro";
 .qirmizibg{
     background-color: var(--logored);
 }
+.qarabg{
+    background-color: black;
+}
 .yasiltxt{
     color: var(--logogreen);
 }
@@ -91,31 +97,31 @@ font-family: "Myriad Pro";
     color: white;
 }
 #photo1{
-    background:url(../img/photo1.jpg) ;
-    min-height: 400px;
+    background:url(../img/photo1.jpg) center/cover ;
 }
 #photo2{
-    background:url(../img/photo2.jpg) ;
-    min-height: 400px;
+    background:url(../img/photo2.jpg) center/cover ;
 }
 #photo3{
     background: url(../img/photo3.jpg) center/cover;
-    min-height: 400px;
 }
 #photo4{
-    background: url(../img/photo4.jpg);
-    min-height: 400px;
+    background: url(../img/photo4.jpg) center/cover;
 }
 #photo5{
-    background: url(../img/photo5.jpg);
-    min-height: 400px;
+    background: url(../img/photo5.jpg)center/cover;
 }
 #photo6{
     background: url(../img/photo6.jpg) center/cover;
-    min-height: 400px ;
 }
 #photo7{
-    background: url(../img/photo7.jpg);
+    background: url(../img/photo7.jpg) center/cover;
+}
+#tvit{
+    background-color: #00adef;
+}
+#in{
+    background-color: #16198f;
 }
 @media only screen and (min-width: 768px){
     header{
@@ -160,7 +166,7 @@ font-family: "Myriad Pro";
     }
     .w34{
         width: 34%;
-
+        padding-top: 55px;
     }
     .w66{
         width: 66%;
@@ -177,15 +183,36 @@ text-align: center;
         font-size: 35px;
 text-transform: uppercase;
 text-align: center;
+padding-top: 63px;
     }
-    .w34 h5 h2 p{
+    .w66 p{
+        padding: 34px 0 0 36px  ;
+    }
+    .w34 h5,.w34 h2,.w34 p{
         font-size: .8em;
-color: #656e74;
 text-align: center;
+    }
+    .w34 p{
+        padding-top: 72px;
     }
 footer div div{
     width: 100%;
+    height: 100vh;
 }
+footer h2{
+    font-size: 1.8em;
+letter-spacing: 0px;
+text-align: center;
+padding-bottom: 120px;
+padding-top: 230px;
+}
+footer p{
+    font-size: .8em;
+letter-spacing: 0px;
+text-align: center;
+padding-bottom: 378px;
+}
+
     
 
 
